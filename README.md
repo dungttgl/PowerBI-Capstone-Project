@@ -68,12 +68,13 @@ The objective of this project is to answer key business questions:
 
 ```text
 .
-+-- Capstone Project_DTT.pbix
-+-- Capstone Project_DTT.pdf
 +-- Data/
 |   +-- 1.SalesManagers.xlsx
 |   +-- 2.Region.xlsx
 |   +-- 4.SalesManagement.xlsx
++-- Capstone Project_DTT.pbix
++-- Capstone Project_DTT.pdf
++-- Mo ta - Yeu cau lam Project.docx
 +-- README.md
 ```
 
