@@ -1,15 +1,61 @@
-# Power BI Business Intelligence Portfolio
+# Power BI Sales Management Dashboard
 
-This repository showcases my Power BI practice projects focused on building core Business Intelligence skills, from data preparation to dashboard storytelling.
+This project is an end-to-end Power BI dashboard built to analyze sales management performance from 2016 to 2018.
 
-## Focus Areas
+The dashboard focuses on revenue, profit, profit margin, quantity sold, regional performance, product performance, sales managers, and sales channels. The goal is to turn raw sales data into a clear business intelligence report that supports performance tracking and decision making.
 
-| Section | Description | Skills Demonstrated |
-|---|---|---|
-| 01 Data Preparation | Cleaning, combining, and transforming raw Excel files | Power Query, data cleaning, append/merge queries, data standardization |
-| 02 Data Modeling | Building analytical data models for reporting | Fact-dimension modeling, relationships, star schema logic |
-| 03 DAX Practice | Creating measures for business analysis | DAX measures, KPI calculations, filter context |
-| 04 Capstone Dashboard | End-to-end Power BI dashboard project | Data modeling, DAX, dashboard design, data storytelling |
+## Dashboard Preview
+
+- [View PDF report](./Capstone%20Project_DTT.pdf)
+- [Download Power BI file](./Capstone%20Project_DTT.pbix)
+
+## Project Objective
+
+The objective of this project is to answer key business questions:
+
+- How did revenue, profit, profit margin, and quantity sold change over time?
+- Which regions contributed the most to total revenue?
+- Which product lines drove sales volume and profit?
+- Which sales managers performed best?
+- Which sales channels were most effective across regions?
+- What business insights can be communicated through dashboard storytelling?
+
+## Key Metrics
+
+| Metric | Value |
+|---|---:|
+| Total Revenue | 1.07bn |
+| Total Profit | 450.97M |
+| Profit Margin | 42.20% |
+| Quantity Sold | 13M |
+
+## Main Insights
+
+- Revenue and profit remained strong across 2016-2018, with profit margin staying stable at around 42%.
+- Europe was the largest revenue contributor, followed by North America and Asia.
+- Web was the dominant sales channel in most regions, while traditional channels such as Sales Visit still played a role in selected markets.
+- Video Games led in sales volume and revenue, making it a strong market coverage product line.
+- Computer products generated strong profit with much lower sales volume, showing higher value per unit.
+- The dashboard combines KPI tracking, product analysis, regional breakdown, and narrative insights to support business decision making.
+
+## Report Pages
+
+| Page | Description |
+|---|---|
+| Sales Overview | High-level view of revenue, profit, profit margin, quantity sold, regional contribution, yearly trend, sales manager performance, and channel mix |
+| Performance Analysis | Product line analysis, quantity breakdown, margin comparison, cost analysis, and sales breakdown by region, country, and manager |
+| Business Storytelling | Vietnamese narrative page summarizing key insights, business interpretation, and strategic takeaways |
+
+## Skills Demonstrated
+
+- Data preparation with Power Query
+- Data modeling for sales analysis
+- DAX measure creation
+- KPI dashboard design
+- Regional and product performance analysis
+- Sales manager performance tracking
+- Dashboard storytelling
+- Business insight communication
 
 ## Tools Used
 
@@ -18,13 +64,19 @@ This repository showcases my Power BI practice projects focused on building core
 - DAX
 - Excel
 
-## Portfolio Highlights
+## Repository Structure
 
-- Prepared and transformed multiple raw data sources for reporting
-- Designed structured data models using fact and dimension logic
-- Built DAX measures for KPI and performance analysis
-- Developed an end-to-end Power BI dashboard with business storytelling
+```text
+.
++-- Capstone Project_DTT.pbix
++-- Capstone Project_DTT.pdf
++-- Data/
+|   +-- 1.SalesManagers.xlsx
+|   +-- 2.Region.xlsx
+|   +-- 4.SalesManagement.xlsx
++-- README.md
+```
 
 ## Notes
 
-This repository is organized as a personal learning and portfolio project. Some raw datasets or exercise documents may be excluded to keep the repository focused on the final analytical outputs.
+This project is part of my personal Power BI portfolio. The focus is on demonstrating the full BI workflow: preparing data, building a data model, creating DAX measures, designing dashboards, and communicating business insights.
